@@ -1,0 +1,39 @@
+@media screen and (max-width: 767px) {
+    .wrapper{
+        width:300px;
+    }
+    .rightsum{
+        width:200px;
+    }
+    .left{
+        width:100px;
+    }
+    .rleft{
+        width:125px;
+    }
+    .rright{
+        width:75px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .wrapper{
+        width:150px;
+    }
+    .rleft{
+        width:150px;
+    }
+    .left{
+        width:150px;
+        height:100px;
+    }
+    .rightsum{
+        float:none;
+    }
+    .rright{
+        float:none;
+        width:150px;
+    }
+    .rightdown{
+        width:150px;
+    }
+}
